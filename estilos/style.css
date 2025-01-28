@@ -9,10 +9,32 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav{
+    padding: 20px;
+}
+
+nav a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #262626;
+    margin: 10px;
+    
+}
+
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+
 nav img{
-    width: 100px;
+    width: 150px;
     display: inline-block;
     
+}
+
+header div{
+    width: 700px;
+    text-align: center;
+    margin: auto;
 }
 
 header img{
@@ -28,6 +50,21 @@ header p{
     font-size: 1.1;
 }
 
-header a{
-    
+header a#um{
+    padding: 10px;
+    background-color: #005CA5;
+    margin: 20px 10px 20px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+header a#um:hover{
+    background-color: #045291;
+    box-shadow: 1px 1px black;
+}
+
+header a#dois{
+    text-decoration: none;
+    color: black;
 }
